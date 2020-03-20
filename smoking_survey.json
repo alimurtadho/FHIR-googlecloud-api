@@ -1,0 +1,41 @@
+{
+  "resourceType": "Observation",
+  "id": "a39bb260-4768-4989-8e1b-730c71085f58",
+  "meta": {
+    "profile": [
+      "http://standardhealthrecord.org/fhir/StructureDefinition/shr-finding-Observation"
+    ]
+  },
+  "status": "final",
+  "category": [{
+    "coding": [{
+      "system": "http://hl7.org/fhir/observation-category",
+      "code": "survey",
+      "display": "survey"
+    }]
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "72166-2",
+      "display": "Tobacco smoking status NHIS"
+    }],
+    "text": "Tobacco smoking status NHIS"
+  },
+  "subject": {
+    "reference": "Patient/a6021478-3793-45e2-b059-72cb3ad89200"
+  },
+  "context": {
+    "reference": "Encounter/4cb5d7f4-9232-4de2-b8fc-49d2128b4cc5"
+  },
+  "effectiveDateTime": "2010-03-31T10:00:05-04:00",
+  "issued": "2010-03-31T10:00:05.966-04:00",
+  "valueCodeableConcept": {
+    "coding": [{
+      "system": "http://snomed.info/sct",
+      "code": "8517006",
+      "display": "Former smoker"
+    }],
+    "text": "Former smoker"
+  }
+}
